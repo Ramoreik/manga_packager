@@ -8,7 +8,6 @@ KNOWN_MANGA_IMAGES_EXTENSIONS = ('*.jpg', '*.png', '*.webp')
 PACKAGE_DIRECTORY_NAME = "packaged"
 
 
-
 def handle_arguments():
     print("handling arguments")
     parser = argparse.ArgumentParser(description='Program that takes in a folder and packages manga volumes in zips under it')
